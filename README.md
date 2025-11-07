@@ -1,2 +1,3 @@
 # JavaScript
-JavaScript Learn 
+JavaScript Learn from self
+
