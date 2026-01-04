@@ -86,28 +86,68 @@
 
 //  3  taffic light red yellow green used swich case 
 
-function Trafficlight(light){
-    switch(light){
-        case "red":
-            console.log("Stop driving the car");
-            break;
-        case "yellow":
-            console.log("please slow the speed");
-            break;
-        case "green":
-            console.log("go to the drive ");
-            break;
-        default:
-            if(typeof light === "number"){
-                console.log("number is not valid in traffic light:")
-            }else{
-            console.log("Sleep and enjoy😊")
+// function Trafficlight(light){
+//     switch(light){
+//         case "red":
+//             console.log("Stop driving the car");
+//             break;
+//         case "yellow":
+//             console.log("please slow the speed");
+//             break;
+//         case "green":
+//             console.log("go to the drive ");
+//             break;
+//         default:
+//             if(typeof light === "number"){
+//                 console.log("number is not valid in traffic light:")
+//             }else{
+//             console.log("Sleep and enjoy😊")
 
-            }
+//             }
+//     }
+
+// }
+// Trafficlight("red")
+// Trafficlight(12)
+// Trafficlight("yellow")
+// Trafficlight("green")
+
+
+
+
+// Practice to check value whathappend 
+
+function checktruethyvalue(value){
+    if(value){
+        console.log("value is thruethy")
+    }else{
+        console.log("value is falsey")
     }
-
 }
-Trafficlight("red")
-Trafficlight(12)
-Trafficlight("yellow")
-Trafficlight("green")
+checktruethyvalue("")
+checktruethyvalue("1")
+checktruethyvalue("0")
+checktruethyvalue("zentrox")
+checktruethyvalue(12)
+checktruethyvalue([])
+checktruethyvalue([12,13,14])
+
+
+
+
+// billing shopping bill 
+
+function chechAmount(bill){
+    // if(bill > 1000){
+    //     return bill * 0.9
+    // }else{
+    //     return bill
+    // }
+
+
+//same logic in single line 
+
+    return bill > 1000 ? bill * 0.9: bill
+}
+console.log(chechAmount(1200))
+console.log(chechAmount(222))
