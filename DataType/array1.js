@@ -3,13 +3,16 @@
 // let nameTypes = ["Zentrox","Tom","Monu","bravix"]
 
 // console.log(nameTypes[0])
-// console.log(`toatal length of name: ${nameTypes}`)
+// console.log(`toatal length of name: ${nameTypes.length}`)
 
-// nameTypes.push("Monu Tom")
+
+// nameTypes.push("Monu Yadav")
 // console.log(nameTypes)
+
 // const newname = nameTypes.pop()
 
-// console.log(newname)
+//console.log(newname)                    // last one store in this variables 
+//console.log(nameTypes)                 // in this what is what is pendding here 
 
 
 
@@ -20,7 +23,7 @@
 // if(index !== -1){
 //     nameTypes.splice(index,1)
 // }
-// console.log(nameTypes)
+// console.log(nameTypes) 
 
 
 
@@ -47,9 +50,9 @@
 
 // 5  add new name in array through spred method 
 
-let nameTypes = ["Zentrox","Tom","Monu","bravix"]
+// let nameTypes = ["Zentrox","Tom","Monu","bravix"]
 
-let newname = [...nameTypes, "Monu Yadav"]
+// let newname = [...nameTypes, "Monu Yadav"]
 
-console.log(newname)
+// console.log(newname)
 

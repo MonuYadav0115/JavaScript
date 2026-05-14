@@ -11,10 +11,10 @@ let num = "11"       // if "11a" --> NaN output
 // 2 
 
 
-// let str = 123
+// let str = 123 
 // let conversionString = String(str)
 // console.log(conversionString)
-// console.log(typeof conversionString)
+// console.log(typeof conversionString) 
 
 
 
@@ -65,17 +65,17 @@ let fisrtname = "Zetrox"
 let lastname = "Tom"
 
 let fullname = fisrtname + lastname   // ZetroxTom
-console.log(fullname)
+// console.log(fullname)
 
 let message = "Hello world "
-console.log(message.toUpperCase())
-console.log(message.toLowerCase())
-console.log(message.indexOf("world"))
-console.log(message.slice(0,5))
+// console.log(message.toUpperCase())
+// console.log(message.toLowerCase())
+// console.log(message.indexOf("world"))
+// console.log(message.slice(0,5)) 
 
 //template literals 
 
 
 let myname = "zentrox"
-let greeting = `Hello ${myname} from hyderabad`
+let greeting = `Hello ${myname} i am from hyderabad`
 console.log(greeting)

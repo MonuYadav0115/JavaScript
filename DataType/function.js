@@ -2,13 +2,14 @@
 
 // function 
 
-// function preparedchai (type){
-//     if(type === "Masala chai"){
-//         console.log("adding spaces to the chai")
-//     } else {
-//         console.log("Prepared regular chai")
-//     }
-// }
+function preparedchai (type){
+    if(type === "Masala chai"){
+        console.log("adding spaces to the chai")
+    } else {
+        console.log("Prepared regular chai")
+    }
+}
+// preparedchai("Ginger chai")
 // preparedchai("Masala chai")
 
 
@@ -124,13 +125,13 @@ function checktruethyvalue(value){
         console.log("value is falsey")
     }
 }
-checktruethyvalue("")
-checktruethyvalue("1")
-checktruethyvalue("0")
-checktruethyvalue("zentrox")
-checktruethyvalue(12)
-checktruethyvalue([])
-checktruethyvalue([12,13,14])
+// checktruethyvalue("")
+// checktruethyvalue("1")
+// checktruethyvalue("0")
+// checktruethyvalue("zentrox")
+// checktruethyvalue(12)
+// checktruethyvalue([])
+// checktruethyvalue([12,13,14])
 
 
 
@@ -149,5 +150,5 @@ function chechAmount(bill){
 
     return bill > 1000 ? bill * 0.9: bill
 }
-console.log(chechAmount(1200))
-console.log(chechAmount(222))
+// console.log(chechAmount(1200))
+// console.log(chechAmount(222))

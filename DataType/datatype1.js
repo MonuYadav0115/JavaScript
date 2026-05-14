@@ -31,4 +31,4 @@ let user = {firstname:"Zentrox", lastname:"Tom"}
 
 let getscore = score
 
-console.log(getscore);
+console.log("dict -->", user, "object--> ",teaType, "getscore to get score value--",score);
