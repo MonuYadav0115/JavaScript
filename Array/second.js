@@ -22,4 +22,4 @@ if (indexOfAvocado != -1) {
 } else {
   console.log('This fruit does not exist in the array')
 }
-// This fruit does not exist in the array
+// This fruit does not exist in the array 
